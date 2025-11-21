@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Basket | Timothy</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0a0a0d;
+            color: #e3e3e3;
+        }
+
+        header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1e3a8a;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #6d85ff;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #9cb7ff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #11131a;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            color: #6d85ff;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 15px rgba(90,120,255,0.5);
+        }
+
+        .main-img {
+            width: 100%;
+            height: auto;
+            max-height: 700px;
+            border-radius: 15px;
+            object-fit: contain;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(90,120,255,0.5);
+            transition: 0.3s;
+        }
+
+        .main-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 28px rgba(90,120,255,0.8);
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #cfd3ff;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        p:hover {
+            color: white;
+            transform: translateX(4px);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e40af;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="Cuplikan_layar_2025-11-21_141248-removebg-preview.png" alt="Logo Timothy">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Portofolio.html">Portfolio</a>
+        <a href="About Me">About me</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>Perjalanan Saya di Dunia Basket</h1>
+
+    <img src="Foto Basket.jpg" alt="Basket" class="main-img">
+
+    <p>
+        Saya mulai bermain basket ketika memasuki bangku SMP. Awalnya, saya hanya ikut-ikutan
+        karena banyak teman saya yang suka bermain basket. Lama kelamaan, saya mulai menikmati
+        permainan ini dan akhirnya menjadi salah satu olahraga favorit saya.
+    </p>
+
+    <p>
+        Seiring berjalannya waktu, kemampuan saya dalam bermain basket semakin berkembang.
+        Saya belajar cara mengatur tempo permainan, melakukan passing yang tepat, dan meningkatkan
+        kemampuan shooting saya. Basket juga mengajarkan saya pentingnya kekompakan dan strategi.
+    </p>
+
+    <p>
+        Salah satu pengalaman yang paling saya ingat adalah ketika tim saya berhasil meraih
+        <b>Juara 2 Classmeet</b>. Walaupun bukan kompetisi resmi, momen itu sangat berarti
+        buat saya karena kami berjuang bersama dan meraih hasil yang memuaskan.
+    </p>
+
+    <p>
+        Basket bagi saya bukan hanya olahraga, tetapi tempat saya mengekspresikan diri,
+        menambah teman, dan mengasah kemampuan fisik serta mental.
+    </p>
+
+    <a href="Portofolio.html" class="back-btn">← Kembali ke Portfolio</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Guitar | Timothy</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0a0a0d; /* dark background */
+            color: #e3e3e3;       /* teks terang */
+        }
+
+        header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1e3a8a;  /* biru gelap */
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .left-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #6d85ff; /* biru neon */
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #9cb7ff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #11131a; /* dark container */
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            color: #6d85ff; /* judul biru neon */
+            text-align: center;
+            margin-bottom: 25px;
+            text-shadow: 0 0 15px rgba(90,120,255,0.5);
+        }
+
+        .main-img {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+            border-radius: 15px;
+            object-fit: contain; /* gambar terlihat penuh */
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(90,120,255,0.5);
+            transition: 0.3s;
+        }
+
+        .main-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 28px rgba(90,120,255,0.8);
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #cfd3ff; /* teks biru pucat */
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        p:hover {
+            color: white;
+            transform: translateX(4px);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb; /* biru tombol */
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e40af;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="left-header">
+        <img src="Cuplikan_layar_2025-11-21_141248-removebg-preview.png" alt="Logo Timothy">
+        <span class="header-title">Guitar | Timothy</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Portofolio.html">Portfolio</a>
+        <a href="About Me">About me</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>Perjalanan Saya Belajar Guitar</h1>
+
+    <img src="Foto Guitar.jpg" alt="Gitar" class="main-img">
+
+    <p>
+        Saya mulai mempelajari guitar ketika duduk di kelas 9. Orang tua saya selalu mendorong saya
+        untuk mencoba bermain musik, dan akhirnya saya memilih guitar sebagai alat musik pertama
+        yang benar-benar saya seriusin.
+    </p>
+
+    <p>
+        Awalnya sulit, jari sakit, chord berantakan — tapi lama-lama saya mulai terbiasa dan mulai
+        bisa memainkan banyak lagu. Semakin sering saya latihan, semakin besar rasa cinta saya pada
+        permainan guitar.
+    </p>
+
+    <p>
+        Tidak lama setelah itu, saya mulai menunjukkan kemampuan saya dan akhirnya dipercaya untuk
+        melayani sebagai pemain musik di gereja. Momen itu sangat penting bagi saya karena saya bisa
+        menggunakan talenta yang saya pelajari untuk sesuatu yang berarti.
+    </p>
+
+    <p>
+        Bermain guitar telah menjadi bagian besar dalam hidup saya — tempat saya mengekspresikan diri,
+        mengembangkan kreativitas, dan memberi dampak positif bagi orang lain.
+    </p>
+
+    <a href="Portofolio.html" class="back-btn">← Kembali ke Portfolio</a>
+
+</div>
+
+</body>
+</html>

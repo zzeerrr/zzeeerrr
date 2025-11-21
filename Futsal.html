@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Futsal | Timothy</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0a0a0d;
+            color: #e3e3e3;
+        }
+
+        /* HEADER */
+        header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1e3a8a;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .left-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #6d85ff;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #9cb7ff;
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #11131a;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            color: #6d85ff;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 15px rgba(90,120,255,0.5);
+        }
+
+        /* GAMBAR FUTSAL FULL */
+        .main-img {
+            width: 100%;
+            height: auto;          /* sesuaikan proporsi asli */
+            max-height: 800px;     /* bisa diubah sesuai kebutuhan */
+            border-radius: 15px;
+            object-fit: contain;    /* gambar terlihat penuh */
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(90,120,255,0.5);
+            transition: 0.3s;
+        }
+
+        .main-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 28px rgba(90,120,255,0.8);
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #cfd3ff;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        p:hover {
+            color: white;
+            transform: translateX(4px);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e40af;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="left-header">
+        <img src="Cuplikan_layar_2025-11-21_141248-removebg-preview.png" alt="Logo Timothy">
+        <span class="header-title">Futsal | Timothy</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Portofolio.html">Portfolio</a>
+        <a href="About Me">About me</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>Perjalanan Saya di Dunia Futsal</h1>
+
+    <img src="Foto Futsal.jpg" alt="Futsal" class="main-img">
+
+    <p>
+        Saya mulai mengenal futsal sejak duduk di bangku SD. Awalnya hanya bermain santai
+        bersama teman-teman, tapi lama-lama saya mulai serius dan mencintai olahraga ini.
+    </p>
+
+    <p>
+        Salah satu pengalaman berharga adalah mengikuti CUP sekolah Tarakanita 5/Tarlim cup.
+        Tim kami berjuang melawan banyak sekolah lain, dan akhirnya berhasil meraih <b>Juara 4</b>.
+        Pengalaman ini meningkatkan percaya diri dan semangat saya.
+    </p>
+
+    <p>
+        Futsal bagi saya lebih dari sekadar olahraga. Di sini saya belajar kerja sama tim,
+        strategi, kerja keras, dan sportivitas. Hobi ini tetap menjadi bagian penting dalam hidup saya.
+    </p>
+
+    <a href="Portofolio.html" class="back-btn">← Kembali ke Portfolio</a>
+
+</div>
+
+</body>
+</html>

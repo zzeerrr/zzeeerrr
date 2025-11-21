@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Timothy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0a0a0d;
+            color: #e3e3e3;
+        }
+
+        header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1e3a8a;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .left-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #6d85ff;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #9cb7ff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #11131a;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        }
+
+        .about-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            flex-wrap: wrap;
+        }
+
+        .profile-img {
+            width: 300px;
+            height: 360px;
+            border-radius: 15px;
+            object-fit: cover;
+            box-shadow: 0 0 18px rgba(90,120,255,0.6);
+            transition: 0.4s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 28px rgba(90,120,255,0.9);
+        }
+
+        h1 {
+            color: #6d85ff;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(90,120,255,0.5);
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #cfd3ff;
+            margin-bottom: 18px;
+            transition: 0.3s;
+        }
+
+        p:hover {
+            color: white;
+            transform: translateX(4px);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1e40af;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .profile-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="left-header">
+        <img src="Cuplikan_layar_2025-11-21_141248-removebg-preview.png" alt="Logo Timothy">
+        <span class="header-title">Timothy</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Portofolio.html">Portfolio</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="about-wrapper">
+        <img src="Gambar Timothy.png" alt="Profile" class="profile-img">
+
+        <div class="text-box">
+            <h1>Timothy</h1>
+            <p>No.Handphone : 081909201015</p>
+            <p>Instagram : _zzeerr_</p>
+            <p>Gmail : timothytrigger337@gmail.com</p>
+
+            <a href="Portofolio.html" class="back-btn">→ Lihat Portfolio</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
